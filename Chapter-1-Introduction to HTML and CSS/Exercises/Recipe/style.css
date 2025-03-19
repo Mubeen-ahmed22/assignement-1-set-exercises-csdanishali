@@ -1,0 +1,70 @@
+/* 1. Set background color */
+body {
+    background-color: #f8e9d1; /* Light beige */
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 18px;
+}
+
+/* 2. Style the main heading */
+h1 {
+    color: #8b0000; /* Dark red */
+    text-align: center;
+    font-size: 4em;
+}
+
+/* 3. Style subheadings */
+h2 {
+    color: #8b0000;
+    border-bottom: 2px solid #8b0000;
+    padding-bottom: 5px;
+}
+
+/* 4. Style paragraphs */
+p {
+    font-size: 1.5em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* 5. Style the ingredients & method sections */
+ul, ol {
+    background: #fff;
+    padding: 22px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 6. Style list items */
+li {
+    padding: 6px;
+    font-size: 1.1em;
+}
+
+/* 7. Add hover effect to list items */
+li:hover {
+    color: #b22222;
+    font-weight: bold;
+}
+
+/* 8. Center align text in list sections */
+ul, ol {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* 9. Add spacing to sections */
+h1, h2, p, ul, ol {
+    margin-bottom: 20px;
+}
+
+/* 10. Make the page responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 1.8em;
+    }
+}
